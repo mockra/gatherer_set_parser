@@ -16,10 +16,11 @@ Gem::Specification.new do |gem|
   gem.name          = "gatherer_set_parser"
   gem.require_paths = ["lib"]
   gem.version       = GathererSetParser::VERSION
+  gem.license       = 'MIT'
 
-    gem.add_development_dependency 'rake'
-    gem.add_development_dependency 'rspec'
-    gem.add_development_dependency 'fakeweb'
-    gem.add_development_dependency 'vcr'
-    gem.add_dependency 'nokogiri'
+  gem.add_development_dependency 'rake'
+  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'fakeweb'
+  gem.add_development_dependency 'vcr'
+  gem.add_dependency 'nokogiri'
 end
