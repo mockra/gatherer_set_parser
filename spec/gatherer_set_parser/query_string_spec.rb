@@ -13,7 +13,7 @@ describe GathererSetParser::QueryString do
   describe '#query_string' do
     it 'should contain the entire query' do
       gatherer.query_string.should ==
-        'output=standard&set=[%22Dark%20Ascension%22]'
+        'output=standard&action=advanced&set=[%22Dark%20Ascension%22]'
     end
   end
 

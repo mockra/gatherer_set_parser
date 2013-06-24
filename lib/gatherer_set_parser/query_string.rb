@@ -10,7 +10,7 @@ module GathererSetParser
     end
 
     def query_string
-      "output=standard&set=[%22#{escaped_set}%22]"
+      "output=standard&action=advanced&set=[%22#{escaped_set}%22]"
     end
 
     def url
